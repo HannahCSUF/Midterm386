@@ -23,7 +23,7 @@ class Ship:
 	
     def remove_lasers(self): self.lasers.remove()
 	
-    def move(self): pass
+    def move(self):
 	if self.velocity == Vector():
 		return
 	self.rect.left += self.velocity.x
